@@ -14,4 +14,4 @@ WORKDIR /app
 RUN pip install fib-package/
 RUN nuitka3 --show-progress --recurse-all /usr/local/bin/fib
 
-ENTRYPOINT /app/fib.bin
+CMD ["/app/fib.bin"]

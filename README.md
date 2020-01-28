@@ -10,4 +10,4 @@ Run:
 - `make run` to run it and check it works
 
 If you need to experiment within the container, do:
-`docker run -it --rm --entrypoint /bin/bash axelvoitier/nuitka-cython-test`
+`docker run -it --rm axelvoitier/nuitka-cython-test bash`
